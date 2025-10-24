@@ -14,7 +14,7 @@ export default function Header(){
       </div>
 
       <div className="mt-8 card">
-        <p>Hey — welcome to my AI portfolio. Here you'll find projects, skills and contact info. Projects are pulled automatically from my public GitHub repos.</p>
+        <p>Hi! I’m a Computer Science Engineering student. I love coding, AI engineering, exploring new technologies, and turning ideas into real projects.</p>
       </div>
     </header>
   )
