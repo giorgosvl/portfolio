@@ -6,12 +6,12 @@ export default function Header(){
       <div className="flex items-center gap-6">
         <div style={{width:110, height:110, borderRadius:18, background:'linear-gradient(135deg,#111827,#0f1724)', display:'flex', alignItems:'center', justifyContent:'center', boxShadow:'0 8px 30px rgba(2,6,23,0.6)'}}>
           <img 
-            src="/portfolio/profile.jpg" 
+            src={`${import.meta.env.BASE_URL}me.jpeg`} 
             alt="George Vletsas" 
             style={{
-              width:80,
-              height:80, 
-              borderRadius:12, 
+              width:'20vw',
+              height:'auto', 
+              borderRadius:'12px', 
               objectFit:'cover'
             }}
           />
