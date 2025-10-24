@@ -5,7 +5,16 @@ export default function Header(){
     <header className="mb-12">
       <div className="flex items-center gap-6">
         <div style={{width:110, height:110, borderRadius:18, background:'linear-gradient(135deg,#111827,#0f1724)', display:'flex', alignItems:'center', justifyContent:'center', boxShadow:'0 8px 30px rgba(2,6,23,0.6)'}}>
-          <div style={{width:80,height:80, borderRadius:12, background:'#0b1220', display:'flex', alignItems:'center', justifyContent:'center', fontSize:28}}>GV</div>
+          <img 
+            src="/profile.jpg" 
+            alt="George Vletsas" 
+            style={{
+              width:80,
+              height:80, 
+              borderRadius:12, 
+              objectFit:'cover'
+            }}
+          />
         </div>
         <div>
           <h1 className="text-4xl font-extrabold">George Vletsas</h1>
