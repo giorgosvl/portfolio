@@ -10,7 +10,15 @@ export default function Projects() {
       tech: ["Python", "PyTorch", "NetworkX"],
       repo: "https://github.com/giorgosvl/LinkPredictionLLM",
       image: "/portfolio/ai-link-predictor.jpg"
+    },
+    {
+      title: "8-Puzzle Solver",
+      description: "A program that solves the 8-puzzle problem using Java algorithms.",
+      tech: ["Java"],
+      repo: "https://github.com/giorgosvl/8-puzzle-solver",
+      image: "/portfolio/8-puzzle-solver.jpg"
     }
+
   ]
 
   return (
