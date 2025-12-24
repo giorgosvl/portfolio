@@ -20,10 +20,10 @@ export default function Projects() {
     },
     {
       title: "socialbookstore",
-      description: "A program that solves the 8-puzzle problem using Java algorithms.",
+      description: "A social bookstore application for sharing and discovering books.",
       tech: ["Java"],
       repo: "https://github.com/giorgosvl/socialbookstore",
-      image: "/portfolio/8-puzzle-solver.jpg"
+      image: "/portfolio/bookstore.jpg"
     }
 
   ]
