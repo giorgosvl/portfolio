@@ -24,6 +24,13 @@ export default function Projects() {
       tech: ["Java", "Spring Boot", "MySQL", "Bootstrap", "CSS"],
       repo: "https://github.com/giorgosvl/socialbookstore",
       image: "/portfolio/bookstore.jpg"
+    },
+    {
+      title: "Computational-Intelligence",
+      description: "Clustering analysis and implementations of clustering methods,MLP experiments and results,Networks graph-based or network-related assignments,Scripts to generate or preprocess datasets",
+      tech: ["Python", "Jupyter Notebook ", "Common libraries"],
+      repo: "https://github.com/giorgosvl/Computational-Intelligence",
+      image: "/portfolio/mlp.jpg"
     }
 
   ]
