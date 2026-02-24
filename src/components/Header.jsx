@@ -30,6 +30,7 @@ export default function Header(){
               height: '100%', 
               borderRadius: '20px', 
               objectFit: 'cover',
+              objectPosition: 'top center',
               imageRendering: 'auto'
             }}
             loading="eager"
